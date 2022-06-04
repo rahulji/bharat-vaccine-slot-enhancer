@@ -1,0 +1,269 @@
+/* inline css */
+  table {
+    border: 1px solid white;
+    }
+table th {
+	background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+table td {
+    border: 1px dotted silver;
+    word-break: break-all;
+}
+
+.no-border {
+	border: 0px;
+}
+
+.table {
+	width: 100%;
+}
+
+#loading_gif {
+	height: 20px;
+	width: 20px;
+	display: none;
+}	  
+	  
+* {
+
+}
+
+body {
+	width: 600px;
+}
+
+.logo {
+	width: 27px;
+    margin-right: 10px;
+}
+
+button {
+	position: relative;
+	z-index: 5;
+	color: #fafafa;
+	border: none;
+	padding: 3px 10px;
+	margin-top: -1px;
+	background: none;
+	outline: none;
+	transition: .3s;
+	box-sizing: border-box;
+	border: 1px solid #fafafa;
+	
+}
+
+button:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: #6b6a6a;
+	background: rgba(0,153,255, .2);
+	transition: .3s;
+}
+
+button:hover::after {
+	height: 100%;
+	
+}
+
+button:hover {
+	border: 1px solid #0099FF;
+}
+
+.panel-title .copybutton {
+	position: relative;
+    top: -4px;
+}
+
+.panel-default > .panel-heading {
+	color: #7d2c55;
+	background: #7d2c55;
+	
+}
+
+tbody {
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+}
+
+#structured_data_table tr td a {
+	color: #fff;
+}
+
+#share-buttons {
+	text-align: center;
+	width: 100%; 
+	margin: 0px;
+	display: none;
+}
+
+.panel-title {
+	position: relative;
+}
+
+.panel-heading span {
+	font-size: 0.8em;
+	color: #fafafa;
+}
+
+.panel-body {
+	padding: 0px;
+}
+
+.panel-title a {
+	transition: .3s;
+	text-decoration: none;
+}
+
+.panel-title a:hover {
+	color: #0099ff;
+}
+
+.panel-title a:after{
+	content: " ";
+    position: absolute;
+    top: 5px;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #fafafa;
+	transition: .3s;
+}
+
+#all_rows {
+	padding: 10px;
+	width: 100%;
+}
+
+
+
+.panel {
+	margin: 0;
+}
+
+.panel-group .panel-title {
+	color: #fafafa;
+}
+
+.panel-group:last-child {
+	margin: 0;
+}
+
+
+tr {
+	transition: .3s;
+}
+
+tr:hover {
+	background: #f9f9f9;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	border: 1px solid #dadada;
+}
+
+
+a {
+	color: #0099FF;
+	transition: .3s;
+}
+
+a:hover {
+	color: #3ab0ff;
+}
+
+
+
+.pull-right {
+	color: #fafafa;
+}
+
+
+/*social */
+
+#rate {
+	margin: 5px 0px 20px 0px;
+	background: #333;
+	vertical-align: middle;
+	padding: 10px 20px;
+	background: #6BBA00;
+	font-size: 1.2em;
+}
+
+.no-border {
+	font-size: 1.2em;
+}
+
+#rate img {
+	width: 21px;
+	vertical-align: text-bottom;
+	margin-right: 5px;
+}
+#share-buttons a {
+	text-decoration: none;
+	transition: .3s;
+}
+
+#share-buttons a:hover {
+	opacity: .7;
+}
+
+.share-buttons ~ tr {
+	background: #333;
+}
+
+.hidesocial {
+	border: 1px solid #333;
+	margin-top: 1px;
+	color: #333;
+	font-size: .8em;
+	opacity: .4;
+}
+
+.social {
+	padding: 10px 20px;
+	background: #333;
+	margin: 0 5px;
+	margin-top: 20px;
+}
+
+.social  img {
+	width: 20px;
+}
+
+.social span {
+	margin-left: 5px;
+	color: #fafafa;
+}
+
+.li {
+	background: #1B86BC;
+}
+
+.fb {
+	background: #3B5998;
+}
+
+.rd {
+	background: #FF4006;
+}
+
+.tw {
+	background: #1DA1F2;
+}
+
+.st {
+	background: #EB4924;
+}
+
+.table{
+	border-top:1px solid #dadada;
+}
